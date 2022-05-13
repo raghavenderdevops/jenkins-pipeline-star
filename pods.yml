@@ -3,10 +3,10 @@ kind: Pod
 metadata:
   name: nodeapp
   labels:
-    app: nodeapp
+    app: nodeapp1
 spec:
   containers:
-    - name: nodeapp
-      image: raghu0708/nodeapp:tagVersion
+    - name: nodeapp1
+      image: raghu0708/nodeapp1:tagVersion
       ports:
         - containerPort: 8080
